@@ -1,6 +1,8 @@
 {
   "name": "cybrarian",
-  "scripts": {},
+  "scripts": {
+   "gulp build"
+  },
   "env": {},
   "formation": {
       "web": {
@@ -13,4 +15,4 @@
                 "url": "heroku/nodejs"
           }
     ]
-} // for heroku deploying
+}
