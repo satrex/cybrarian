@@ -8,9 +8,7 @@
   "cacheDirectories": ["node_modules", "build" ],
   "main": "index.js",
   "scripts": {
-     "start": "node index.js",
-     "postinstall": "gulp build",
-     "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node index.js"
   },
   "author": "satrex",
   "license": "MIT",
