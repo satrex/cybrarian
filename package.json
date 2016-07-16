@@ -4,7 +4,8 @@
   "description": "just a test project.",
   "engines": {
     "node": "6.2.2"
-  }
+  },
+  "cacheDirectories": ["node_modules", "build" ],
   "main": "index.js",
   "scripts": {
      "start": "node index.js",
