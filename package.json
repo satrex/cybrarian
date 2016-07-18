@@ -8,6 +8,7 @@
   "cacheDirectories": ["node_modules", "build" ],
   "main": "index.js",
   "scripts": {
+        "start": "node app"
   },
   "author": "satrex",
   "license": "MIT",
