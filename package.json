@@ -3,13 +3,32 @@
   "version": "1.0.0",
   "description": "just a test project.",
   "engines": {
-    "node": "6.2.2"
+    "node": "6.2.X",
+    "npm": "3.9.X"
   },
   "cacheDirectories": ["node_modules", "build" ],
   "main": "index.js",
   "scripts": {
         "start": "node app"
   },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8",
+    "gulp-webpack": "^1.5.0",
+    "mysql": "^2.11.1",
+    "request": "^2.73.0",
+    "require-dir": "^0.3.0",
+    "sequelize": "^3.23.4"
+  },
+
   "author": "satrex",
   "license": "MIT",
   "repository": {
