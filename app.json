@@ -1,7 +1,6 @@
 {
   "name": "cybrarian",
   "scripts": {
-   "gulp build"
   },
   "env": {},
   "formation": {
