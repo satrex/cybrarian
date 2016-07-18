@@ -1,10 +1,6 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var mongodb = require('mongodb');
+var http = require('http');
 
-var app = express();
-var users;
-
-app.use(express.static('build'));
-app.use(bodyParser.json());
-app.listen(3000);
+http.createServer(function (request, response) {
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.end('Hello World\n');
+}).listen();')})
